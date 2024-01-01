@@ -1,0 +1,15 @@
+{
+  "name": "stripe-decline-payment-testcase",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "mocha --exit --timeout 10000"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "stripe": "^11.5.0"
+  }
+}
