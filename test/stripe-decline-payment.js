@@ -3,7 +3,7 @@
 
 const chai = require('chai');
 const expect = chai.expect;
-const stripe = require('stripe')('sk_test_51M2ctlC5sd7OOJiOZZ1c3135nAm2nBieaoyUj7NMwTO9NlHuEb2D7aNsbTijaGKI7foS4u455LHFzNkIhSZGgErA00tGu4588o')
+const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 
 
 
